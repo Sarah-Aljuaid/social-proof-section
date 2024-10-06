@@ -1,0 +1,171 @@
+/* 
+
+- Mobile: 375px
+- Desktop: 1440px
+## Colors
+
+### Primary
+
+Very Dark Magenta: hsl(300, 43%, 22%)
+Soft Pink: hsl(333, 80%, 67%)
+
+### Neutral
+
+Dark Grayish Magenta: hsl(303, 10%, 53%)
+Light Grayish Magenta: hsl(300, 24%, 96%)
+White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [League Spartan](https://fonts.google.com/specimen/League+Spartan)
+- Weights: 400, 500, 700
+
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 140rem;
+  font-family: "League Spartan";
+  font-size: 1.8rem;
+  line-height: 1;
+}
+.main-container {
+  margin: 0 auto;
+  padding: 16rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 9.6rem;
+  row-gap: 6.4rem;
+}
+
+.Hero-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  width: 40rem;
+}
+.heading-1 {
+  display: block;
+  color: hsl(300, 43%, 22%);
+  font-size: 5.2rem;
+}
+.text-description {
+  color: hsl(303, 10%, 53%);
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+/* rating-boxes  */
+.rating-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-self: center;
+  justify-self: self-end;
+}
+.rating-box {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  width: 37.5rem;
+
+  background-color: hsl(300, 24%, 96%);
+  padding: 1.6rem 1.6rem;
+  border-radius: 9px;
+
+  font-size: 1.6rem;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+.stars {
+  display: flex;
+  gap: 0;
+}
+.star-icon {
+  width: 1.7rem;
+  height: 1.6rem;
+}
+
+.rating-text {
+}
+
+.margin-L-md {
+  margin-left: 3.2rem;
+}
+
+.margin-L-lrg {
+  margin-left: 6.4rem;
+}
+
+/* Tes part */
+
+.Testimonial-boxes {
+  display: flex;
+  gap: 3.2rem;
+  align-items: self-start;
+  grid-column: 1/-1;
+}
+
+.Tes-box {
+  display: flex;
+  flex-direction: column;
+
+  gap: 3.2rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(300, 43%, 22%);
+  padding: 3.2rem;
+  border-radius: 11px;
+}
+.Tes-Heading {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+.tes-img {
+  display: block;
+  border-radius: 50%;
+}
+.tes-author-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.autor-name {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.autor-role {
+  color: hsl(333, 80%, 67%);
+}
+.Tes-text {
+  line-height: 1.8rem;
+}
+
+.margin-top-md {
+  margin-top: 1.6rem;
+}
+
+.margin-top-lrg {
+  margin-top: 3.2rem;
+}
